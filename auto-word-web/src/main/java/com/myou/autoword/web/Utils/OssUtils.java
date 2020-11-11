@@ -13,9 +13,9 @@ import java.io.InputStream;
  */
 public class OssUtils {
     private OSSClient genOssClient() {
-        String endpoint = "https://oss-cn-hangzhou.aliyuncs.com";
-        String accessKeyId = "LTAINARqI3JMgq";
-        String accessKeySecret = "rjR4KmgbG4R0aPYMb73Caip2b76t4L";
+        String endpoint = "https://oss.aliyuncs.com";
+        String accessKeyId = "*****";
+        String accessKeySecret = "******";
         return new OSSClient(endpoint, accessKeyId, accessKeySecret);
     }
 
